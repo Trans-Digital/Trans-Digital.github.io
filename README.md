@@ -1,4 +1,1 @@
-Trans-Digital.github.io
-=======================
-
-organization website.
+&copy; 2014 http://github.com/Trans-Digital
