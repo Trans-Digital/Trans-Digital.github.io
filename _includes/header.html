@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="author" content="www.studiowild.it" />
+<meta name="generator" content="Static HTML by Studio WiLD" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- FAVICON -->
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- GENERAL STYLE -->
+<link type="text/css" rel="stylesheet" media="all" href="/style.css" />
+
+<!-- JQUERY LIBRARY -->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+
+<!-- FORM -->
+<script type="text/javascript" src="/js/jquery.form.placeholder.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+	// Television
+	television();
+
+	// Content
+	$('#content').css('margin-top', - (parseInt($('#content').height()) / 2));
+});
+
+$(window).bind('resize', function()
+{
+	// Television
+	television();
+});
+
+function television(){
+	$('#television .middle, #television .middle .sx, #television .middle .dx').height(parseInt($('#television').height()) - 574);
+	$('#television .top .cx, #television .bottom .cx').width(parseInt($('#television').width()) - 776);
+}
+</script>
+
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="js/modernizr/modernizr-2.0.6.js"></script>
+<![endif]-->
+
+<title>{{ page.title }}</title>
+
+</head>

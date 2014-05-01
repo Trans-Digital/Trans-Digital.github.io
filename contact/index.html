@@ -1,0 +1,17 @@
+---
+layout: default
+title: About | Trans_ Anthology on Trans People and the Internet
+---
+
+<h3>Contact</h3>
+
+<br>
+
+<p>
+
+   {% assign email_0 = site.email | replace: '@', ' [at] ' %}
+   {% assign email_clean = email_0 | replace: '.', ' [dot] ' %}
+
+   <p>Email: <a class="color_fucsia" href="mailto:{{ site.email }}?subject=hello from your contact page!">{{ email_clean }}</a></p>
+
+</p>
