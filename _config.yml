@@ -1,2 +1,6 @@
-name: Trans_
-email: transdigital@outlook.com
+name: Trans_ : An Anthology on Trans People and the Internet
+email: submit@transontheinter.net
+
+# DO NOT MODIFY
+markdown: redcarpet
+pygments: true
