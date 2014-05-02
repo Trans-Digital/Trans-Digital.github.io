@@ -1,5 +1,9 @@
-name: Trans_ : An Anthology on Trans People and the Internet
-email: submit@transontheinter.net
+name: Trans_ &#58; An Anthology on Trans People and the Internet
+contact_email: info@transontheinter.net
+contact_email_subject: Hello from your Contact page
+submissions_email: submit@transontheinter.net
+submissions_email_subject: Submission for Trans_ Anthology from your Contact page
+
 
 # DO NOT MODIFY
 markdown: redcarpet

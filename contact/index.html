@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About | Trans_ Anthology on Trans People and the Internet
+title: Contact | Trans_ Anthology on Trans People and the Internet
 ---
 
 <h3>Contact</h3>
@@ -9,9 +9,16 @@ title: About | Trans_ Anthology on Trans People and the Internet
 
 <p>
 
-   {% assign email_0 = site.email | replace: '@', ' [at] ' %}
-   {% assign email_clean = email_0 | replace: '.', ' [dot] ' %}
+   {% assign email_contact = site.contact_email | replace: '@', ' [at] ' %}
+   {% assign email_contact_clean = email_contact | replace: '.', ' [dot] ' %}
 
-   <p>Email: <a class="color_fucsia" href="mailto:{{ site.email }}?subject=hello from your contact page!">{{ email_clean }}</a></p>
+   <p>Questions & Inquiries: <a class="color_fucsia" href="mailto:{{ site.contact_email }}?subject={{ site.contact_email_subject }}">{{ email_contact_clean }}</a></p>
+
+   <br>
+
+   {% assign email_submissions = site.submissions_email | replace: '@', ' [at] ' %}
+   {% assign email_submissions_clean = email_submissions | replace: '.', ' [dot] ' %}
+
+   <p>Submissions: <a class="color_green" href="mailto:{{ site.submissions_email }}?subject={{ site.submissions_email_subject }}">{{ email_submissions_clean }}</a></p>
 
 </p>
