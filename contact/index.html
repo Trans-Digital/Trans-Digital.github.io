@@ -9,16 +9,17 @@ title: Contact | Trans_ Anthology on Trans People and the Internet
 
 <p>
 
-   {% assign email_contact = site.contact_email | replace: '@', ' [at] ' %}
-   {% assign email_contact_clean = email_contact | replace: '.', ' [dot] ' %}
-
-   <p>Questions & Inquiries: <a class="color_fucsia" href="mailto:{{ site.contact_email }}?subject={{ site.contact_email_subject }}">{{ email_contact_clean }}</a></p>
-
-   <br>
-
    {% assign email_submissions = site.submissions_email | replace: '@', ' [at] ' %}
    {% assign email_submissions_clean = email_submissions | replace: '.', ' [dot] ' %}
 
    <p>Submissions: <a class="color_green" href="mailto:{{ site.submissions_email }}?subject={{ site.submissions_email_subject }}">{{ email_submissions_clean }}</a></p>
 
+   <br>
+
+   {% assign email_contact = site.contact_email | replace: '@', ' [at] ' %}
+   {% assign email_contact_clean = email_contact | replace: '.', ' [dot] ' %}
+
+   <p>Questions & Inquiries: <a class="color_fucsia" href="mailto:{{ site.contact_email }}?subject={{ site.contact_email_subject }}">{{ email_contact_clean }}</a></p>
+   <p>Twitter:<a href="http://twitter.com/Trans_Anthology">@Trans_Anthology</a></p>
+  
 </p>
