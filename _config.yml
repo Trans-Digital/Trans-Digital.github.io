@@ -5,6 +5,8 @@ contact_email_subject: Hello from your Contact page
 submissions_email: submit@transontheinter.net
 submissions_email_subject: Submission for Trans_ Anthology from your Contact page
 
+handle_twitter: Trans_Anthology
+handle_facebook: TransAnthology
 
 # DO NOT MODIFY
 markdown: redcarpet
