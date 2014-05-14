@@ -20,6 +20,6 @@ title: Contact | Trans_ An Anthology of Trans People and the Internet
    {% assign email_contact_clean = email_contact | replace: '.', ' [dot] ' %}
 
    <p>Questions & Inquiries: <a class="color_fucsia" href="mailto:{{ site.contact_email }}?subject={{ site.contact_email_subject }}">{{ email_contact_clean }}</a></p>
-   <p>Twitter: <a class="color_fucsia" href="http://twitter.com/Trans_Anthology">@Trans_Anthology</a></p>
-   <p>Facebook: <a class="color_fucsia" href="http://facebook.com/TransAnthology">facebook.com/TransAnthology</a></p>
+   <p>Twitter: <a class="color_fucsia" href="http://twitter.com/{{ site.handle_twitter }}">@{{ site.handle_twitter }}</a></p>
+   <p>Facebook: <a class="color_fucsia" href="http://facebook.com/TransAnthology">facebook.com/{{ site.handle_facebook }}</a></p>
 </p>
