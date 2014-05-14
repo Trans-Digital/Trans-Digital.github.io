@@ -4,4 +4,7 @@
 
 a.navigation { color: #FFF; }
 
-.computer_text { font-family: "VT323", "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; }
+.computer_text { 
+  font-family: "VT323", "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 150%;
+}
