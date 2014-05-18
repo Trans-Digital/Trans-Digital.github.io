@@ -11,9 +11,12 @@ title: Submit | Trans_ An Anthology of Trans People and the Internet
 
 <br>
 
-<p>150-word proposals due August 1, 2014 to <a class="color_green" href="mailto:submit@transontheinter.net?subject=Submission for Aug 1 Deadline">submit@transontheinter.net</a></p>
+{% assign email_submissions = site.submissions_email | replace: '@', ' [at] ' %}
+{% assign email_submissions_clean = email_submissions | replace: '.', ' [dot] ' %}
 
-<br>
+<p>150-word proposals due August 1, 2014 to <a class="color_green" href="mailto:{{ site.submissions_email }}?subject=Submission">{{ email_submissions_clean }}</a>
+
+<br><br>
 
 <p>Keep an eye on this page, <a class="color_fucsia" style="text-decoration:underline"  href="http://facebook.com/{{ site.handle_facebook }}" target="_blank">Facebook</a>, or <a class="color_fucsia" style="text-decoration:underline;"  href="http://twitter.com/{{ site.handle_twitter }}" target="_blank">Twitter</a> for updates.</p>
 
