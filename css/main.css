@@ -14,7 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 15px 'Gill Sans', Helvetica, Arial, sans-serif;
+  font: 13.34px 'Gill Sans', Helvetica, Arial, sans-serif;
+  font-size: small;
   text-align: center;
 }
 
