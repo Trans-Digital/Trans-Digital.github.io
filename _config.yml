@@ -9,6 +9,10 @@ googlefonts_name: VT323
 handle_twitter: Trans_Anthology
 handle_facebook: TransAnthology
 
+is_subscribe_displayed: true
+my_email_subscription_url: http://feedburner.google.com/fb/a/mailverify?uri=TODO
+my_label_subscribebutton: Subscribe <i class="icon icon-envelope"></i>
+
 # DO NOT MODIFY
 markdown: redcarpet
-pygments: true
+highlighter: true

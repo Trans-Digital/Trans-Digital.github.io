@@ -1,0 +1,43 @@
+{% include header.html %}
+
+<body>
+
+{% include background.html %}
+
+  <div id="content">
+  
+    {% include description.html %}
+
+    <div class="block">
+
+    {% include navigation.html %}
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <h3 class="computer_text">Blog</h3>
+            </td>
+            <td>    
+              {% if site.is_subscribe_displayed %}
+                {% if page.layout contains 'blog' %}
+
+                  <div class="subscribe">
+                    {% include /subscribe.html %}
+                  <div>
+                {% endif %}
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      {% include blog_posts.html %}
+      
+      <br />
+
+      </div>
+  
+    </div>
+
+</body>
