@@ -11,4 +11,4 @@ handle_facebook: TransAnthology
 
 # DO NOT MODIFY
 markdown: redcarpet
-pygments: true
+highlighter: true
