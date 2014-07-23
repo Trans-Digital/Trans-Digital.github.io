@@ -1,3 +1,5 @@
+/* Contribute Button */
+
 .blue_button {
 display: inline-block;
 color: #fff;
@@ -22,4 +24,25 @@ background-image: -o-linear-gradient(90deg, #0000AB 0%, #0000AB 100%);
 background-image: -webkit-linear-gradient(90deg, #0000AB 0%, #0000AB 100%);
 background-image: linear-gradient(90deg, #0000AB 0%, #0000AB 100%);
 text-decoration: none;
+}
+
+/* Progress Bar */
+
+#campaign #funding_area #progress_bg #progress {
+height: 40px;
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+background-image: -moz-linear-gradient(90deg, #0000AB 0%, #069df4 100%);
+background-image: -o-linear-gradient(90deg, #0000AB 0%, #069df4 100%);
+background-image: -webkit-linear-gradient(90deg, #0000AB 0%, #069df4 100%);
+background-image: linear-gradient(90deg, #0000AB 0%, #069df4 100%);
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+min-width: 2%;
+width: 100%;
+max-width: 100%;
+display: inline-block;
 }
