@@ -7,6 +7,7 @@ font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
 font-size: 42px;
 font-weight: bold;
 letter-spacing: -.05em;
+text-transform: uppercase;
 }
 
 /* Contribute Button */
