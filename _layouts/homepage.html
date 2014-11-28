@@ -1,4 +1,18 @@
 {% include header_start.html %}
+
+<?php
+    @include("Mobile_Detect.php");
+    $detect = new Mobile_Detect();
+    if ($detect->isMobile() && isset($_COOKIE['mobile']))
+    {
+    $detect = "false";
+    }
+    elseif ($detect->isMobile())
+    {
+    header("Location:{{ site.mobile_url  }}");
+    }
+?>
+
 {% include header_end.html %}
 
 <body>

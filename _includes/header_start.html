@@ -39,30 +39,28 @@
 <script type="text/javascript">
 $(document).ready(function()
 {
-	// Television
-	television();
+        // Television
+        television();
 
-	// Content
-	$('#content').css('margin-top', - (parseInt($('#content').height()) / 2));
+        // Content
+        $('#content').css('margin-top', - (parseInt($('#content').height()) / 2));
 });
 
 $(window).bind('resize', function()
 {
-	// Television
-	television();
+        // Television
+        television();
 });
 
 function television(){
-	$('#television .middle, #television .middle .sx, #television .middle .dx').height(parseInt($('#television').height()) - 574);
-	$('#television .top .cx, #television .bottom .cx').width(parseInt($('#television').width()) - 776);
+        $('#television .middle, #television .middle .sx, #television .middle .dx').height(parseInt($('#television').height()) - 574);
+        $('#television .top .cx, #television .bottom .cx').width(parseInt($('#television').width()) - 776);
 }
 </script>
 
 <!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script type="text/javascript" src="js/modernizr/modernizr-2.0.6.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script type="text/javascript" src="js/modernizr/modernizr-2.0.6.js"></script>
 <![endif]-->
 
 <title>{{ page.title }}</title>
-
-</head>
