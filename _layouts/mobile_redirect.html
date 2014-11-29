@@ -10,13 +10,7 @@
     }
     elseif ($detect->isMobile())
     {
-      $message = "Continue to mobile site? Hit Cancel to view full site.";
-      echo "<script type='text/javascript'>";
-      echo "var go_to_mobile = window.confirm('$message');";
-      echo "if (go_to_mobile == true) {";
-      echo "window.location = '{{ site.mobile_url }}'";
-      echo "}";
-      echo "</script>";
+      header("Location:{{ site.mobile_url }}");
     }
 ?>
 
