@@ -1,0 +1,43 @@
+{% include header_start.html %}
+
+<?php
+    @include("mobile_detect.php");
+    $detect = new mobile_detect();
+
+    if ($detect->isMobile())
+    {
+      $detect = "false";
+    }
+    elseif ($detect->isMobile())
+    {
+      $message = "Continue to mobile site? Hit Cancel to view full site.";
+      echo "<script type='text/javascript'>";
+      echo "var go_to_mobile = window.confirm('$message');";
+      echo "if (go_to_mobile == true) {";
+      echo "window.location = '{{ site.mobile_url }}'";
+      echo "}";
+      echo "</script>";
+    }
+?>
+
+{% include header_end.html %}
+
+<body>
+
+  {% include background.html %}
+
+  <div id="content">
+
+    {% include description.html %}
+
+    <div class="block">
+
+      {% include navigation.html %}
+
+      {{ content }}
+
+    </div>
+
+  </div>
+
+</body>
