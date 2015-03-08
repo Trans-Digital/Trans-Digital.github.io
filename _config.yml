@@ -13,4 +13,4 @@ handle_tumblr: transontheinternet
 
 # DO NOT MODIFY
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
